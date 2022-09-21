@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/djsce_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/title"
+        android:text="DJSCE"
+        android:textSize="35sp"
+        android:ems="10"
+        android:layout_marginBottom="35dp"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/userid"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="     SAP ID"
+        android:inputType="textPersonName"
+        android:textSize="16dp"
+        android:layout_marginBottom="35dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+
+        android:hint="      Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="35dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/title"
+        android:text="LOGIN"
+        />
+
+
+</LinearLayout>

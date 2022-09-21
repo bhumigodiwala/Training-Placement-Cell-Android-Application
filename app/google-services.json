@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793683955892",
+    "firebase_url": "https://djsce-a2ce5.firebaseio.com",
+    "project_id": "djsce-a2ce5",
+    "storage_bucket": "djsce-a2ce5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793683955892:android:0ef17a5135e8bb44fa87e1",
+        "android_client_info": {
+          "package_name": "com.example.djsce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793683955892-r9r6c445685bk3psm538p7fguqft6pji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.djsce",
+            "certificate_hash": "778de2d05bf22826629db0738aa592b614aa3fd9"
+          }
+        },
+        {
+          "client_id": "793683955892-0btmqh87bcnlof21np7s0cvm3pviv5e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARfwnbbwuhYALDwjAqOMia2nH87q8tBa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793683955892-0btmqh87bcnlof21np7s0cvm3pviv5e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

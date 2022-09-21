@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="Work Experience" />-->
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="All Companies" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_enrolled"
+            android:title="Companies Enrolled" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_notices"
+            android:title="Upload Other Docs" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+        </menu>
+    </item>
+
+</menu>
